@@ -15,7 +15,7 @@ Download and install Anaconda from [here](https://www.anaconda.com/products/indi
 
 Clone this repository to your local machine using:
 
-    git clone https://github.com/Quorumetrix/eclipse_hdr_timelapse
+    git clone https://github.com/Quorumetrix/Eclipse_hdr_timelapse
 
 
 ## Create and Activate Conda Environment:
@@ -33,7 +33,7 @@ Find your location on the map at:
 [https://www.timeanddate.com/eclipse/map/2024-april-8](https://www.timeanddate.com/eclipse/map/2024-april-8)
 
 
-Copy the text as seen in the image below:
+Copy the text as seen in the image below, as the script expect it in that format:
 
 ![Eclipse Timing](images/Eclipse_Timing.png)
 
@@ -44,6 +44,12 @@ For Montreal, it would be:
 - **Maximum:** Apr 8 at 3:27:34 pm
 - **Full ends:** Apr 8 at 3:27:58 pm
 - **Partial ends:** Apr 8 at 4:36:52 pm
+
+You should also validate the times from another source to double-check. 
+
+For example: 
+https://www.cbc.ca/news/canada/solar-eclipse-how-to-watch-cbc-1.7163199
+Gives slightly different timing for the start and end of totality, but the middlepoint is the same.
 
 
 You must copy that text into the ECLIPSE_TEXT variable in the 'config.py' file or in the 'Eclipse HDR Timelapse.ipynb' Jupyter notebook:
