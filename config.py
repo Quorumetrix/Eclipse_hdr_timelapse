@@ -1,7 +1,7 @@
 #config.py
 
 # Define your parameters:
-TEST_RUN = True
+TEST_RUN = False
 TEST_OFFSET = 0 #h
 TIMELAPSE_INTERVAL = 60 # seconds
 YEAR = "2024"
